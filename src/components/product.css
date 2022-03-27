@@ -1,0 +1,24 @@
+.card img{
+    height: 200px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.card{
+    /* box-shadow: 0 0 20px red; */
+    background-color: aquamarine;
+    
+}
+
+.img-div{
+    overflow: hidden;
+}
+
+.card img:hover{
+    transform: scale(1.2);
+}
+
+.card:hover{
+    box-shadow: 0 0 10px !important;
+    /* transform: scale(1.2); */
+}
